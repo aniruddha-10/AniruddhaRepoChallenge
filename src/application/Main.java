@@ -12,7 +12,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			VBox root = new VBox();
-			root.Getchildren().add(new Label("Mun's Label"))
+			root.getChildren().add(new Label("Mun's Label"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Aniruddha's Project");
